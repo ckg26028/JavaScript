@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <!-- プログラムの始まり -->
+        <script>
+            // アルゴリズムで 10 → a
+            // 変数は、左において、そこに入れられる。
+            // 行末は「 ; 」（セミコロン）を置く
+            a = 10 ;
+// 結果を表示する
+// 日本語を書くときは、半角の ” か ’ で囲む
+            console.log( "anotaiha" + a );
+            
+            // 10 ・・・変わらない数を定数
+            // a　・・・入れる値で内容が変わる変数
+
+            // 最近では、変数を使うことに使用する宣言を書く
+            // 定数の場合、constキーワードを使う
+            const PI=3.14;
+            // 変数の場合、let,varを使用する
+            var a = 10;
+            // let a = 10;
+
+            //例：円の面積 
+            var r = 10;
+            let S = PI * r * r ;
+            console.log( "半径10の面積は" + S );
+            // 変数名などのキーワードは大文字と小文字が区別される。
+
+            // 2回目に登場する変数にlet,varは不要
+            r = 11 ;
+            S = PI * r * r ;
+            console.log( "半径11の面積は" + S )
+
+            // 足し算
+            var ans = 1 + 1 ;
+            console.log( "1+1 :" + ans );
+
+            ans = "黒川" + "杏南"
+            console.log( "黒川 + 杏南 :" + ans )
+
+            // 引き算
+            ans = 2 - 3 ;
+            ans = a - 10 ;
+
+            // 掛け算
+            ans = 2 * 10 ;
+
+            // 割り算
+            ans = 100 / 3 ;
+            console.log( " 100 / 3 = " + ans )
+
+            // あまり
+            ans = 100 % 3 ;
+            console.log( " 100 % 3 = " + ans )
+
+            // べき乗  2＾10
+            ans = 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 ;
+            ans = 2 ** 10 ;
+            console.log( " 2 ** 10 = " + ans )
+
+            // ここまでは、2つの数字（2項）の計算＝2項演算子という
+
+            // 単項演算子は、変数・乗数が一つだけ使う計算
+            x = -10
+
+            // xの値を一つ増やす。　x + 1 → x
+            x = 0 ;
+            x = x + 1 ;
+
+            // ++x　もしくは　x++
+            // 例えば、変数名がCountOfPCSoftware を1つ増やす
+            CountOfSoftware ++;
+
+            // 1つ増やす　：　++
+            // 1つ減らす　：　--
+
+        </script>
+    </body>
+
+</html>
+<!-- 全角かどうか気を付ける -->
